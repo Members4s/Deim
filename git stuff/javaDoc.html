@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript new Date()</h2>
+
+<p id="demo"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+
+ <script>
+  const d = new Date();
+  document.getElementById("demo").innerHTML = d.getTime();
+  let a = new Date();
+  document.getElementById("demo2").innerHTML = a;
+  var b = new Date(2018, 11, 24, 10, 33, 30, 0);
+  document.getElementById("demo3").innerHTML = b;
+
+ </script>
+
+</body>
+</html>
